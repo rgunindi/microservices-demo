@@ -1,0 +1,1383 @@
+repo_name: rgunindi/microservices-demo
+report_id: fe9a929ebe14ee681687b12437ada5c1
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-08T19:42:23+00:00'
+requested_by: renovate-bot
+provider: github
+branch: main
+detected_tools_count: 96
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rgunindi/microservices-demo
+  detection_source: Repo Metadata
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  version: 3.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Olivier Bourgeois
+  last_updated_on: 2022-06-24 20:27:38.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/cartservice/tests/cartservice.tests.csproj
+  detection_source: src/cartservice/tests/cartservice.tests.csproj
+  last_updated_by: Mathieu Benoit
+  last_updated_on: 2022-11-08 16:55:00.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '7.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/cartservice/src/cartservice.csproj
+  detection_source: src/cartservice/src/cartservice.csproj
+  last_updated_by: Mathieu Benoit
+  last_updated_on: 2022-11-21 14:19:41.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '7.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/cartservice/src/cartservice.csproj
+  detection_source: src/cartservice/src/cartservice.csproj
+  last_updated_by: Mathieu Benoit
+  last_updated_on: 2022-11-21 14:19:41.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/currencyservice/Dockerfile
+  detection_source: src/currencyservice/Dockerfile
+  last_updated_by: Ace Nassri
+  last_updated_on: 2018-06-22 20:43:39.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  version: 3.20.3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/checkoutservice/go.mod
+  last_updated_by: Drew Brown
+  last_updated_on: 2022-11-04 20:49:17.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/checkoutservice/go.mod
+  detection_source: src/checkoutservice/go.mod
+  last_updated_by: Ahmet Alp Balkan
+  last_updated_on: 2020-10-13 20:05:53.000000000 Z
+- name: Cloud Firestore
+  description: NoSQL database built for global apps
+  website_url: https://firebase.google.com/products/firestore/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: NoSQL Database as a Service
+  image_url: https://img.stackshare.io/service/7696/Untitled-5.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/recommendationservice/requirements.txt
+  detection_source: src/recommendationservice/requirements.txt
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-08 13:22:23.000000000 Z
+- name: Google Cloud Storage
+  description: Durable and highly available object storage service
+  website_url: https://cloud.google.com/products/cloud-storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/694/Cloud_Storage.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/recommendationservice/requirements.txt
+  detection_source: src/recommendationservice/requirements.txt
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-17 18:48:59.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/.github/workflows/ci-main.yaml
+  detection_source: ".github/workflows/ci-main.yaml"
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-06-13 19:58:06.000000000 Z
+- name: Google Cloud Build
+  description: Continuously build, test, and deploy.
+  website_url: https://cloud.google.com/cloud-build
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Deployment
+  image_url: https://img.stackshare.io/service/9309/PoHJY3K8_400x400.jpg
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/cloudbuild.yaml
+  detection_source: cloudbuild.yaml
+  last_updated_by: Christine Kim
+  last_updated_on: 2022-02-03 15:36:03.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/adservice/build.gradle
+  detection_source: src/adservice/build.gradle
+  last_updated_by: rghetia
+  last_updated_on: 2018-08-23 00:02:46.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/cartservice/tests/cartservice.tests.csproj
+  detection_source: src/cartservice/tests/cartservice.tests.csproj
+  last_updated_by: Simon Zeltser
+  last_updated_on: 2018-06-23 00:17:34.000000000 Z
+- name: OpenCensus
+  description: A single distribution of libraries that automatically collect traces
+    and send them to any backend
+  website_url: https://opencensus.io/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Performance Monitoring
+  image_url: https://img.stackshare.io/service/10794/EpBd2Xrw_400x400.jpg
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/checkoutservice/go.mod
+  detection_source: src/checkoutservice/go.mod
+  last_updated_by: Drew Brown
+  last_updated_on: 2022-09-29 22:22:09.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/recommendationservice/requirements.txt
+  detection_source: src/recommendationservice/requirements.txt
+  last_updated_by: Ahmet Alp Balkan
+  last_updated_on: 2019-01-30 08:24:07.000000000 Z
+- name: Terraform
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://www.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/terraform/main.tf
+  detection_source: terraform/main.tf
+  last_updated_by: Jasper Mai
+  last_updated_on: 2022-07-26 15:37:12.000000000 Z
+- name: Terraform Registry
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://registry.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package_manager/49093/default_cdf079d244bded073d455911e6ce679abb1b77ab.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/terraform/main.tf
+  detection_source: terraform/main.tf
+  last_updated_by: Jasper Mai
+  last_updated_on: 2022-07-26 15:37:12.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/cartservice/cartservice.sln
+  detection_source: src/cartservice/cartservice.sln
+  last_updated_by: deesejohn
+  last_updated_on: 2021-03-25 14:04:45.000000000 Z
+- name: gevent
+  description: Coroutine network library for Python
+  website_url: http://gevent.org
+  version: 22.10.2
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1772/s9Bm2Iyx_400x400.jpg
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/loadgenerator/requirements.txt
+  detection_source: src/loadgenerator/requirements.txt
+  last_updated_by: Mathieu Benoit
+  last_updated_on: 2022-11-01 14:26:33.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/paymentservice/package.json
+  detection_source: src/paymentservice/package.json
+  last_updated_by: Jonathan Lui
+  last_updated_on: 2018-06-21 17:52:11.000000000 Z
+- name: xUnit
+  description: An open source, community-focused unit testing tool
+  website_url: http://xunit.github.io/
+  version: 2.4.2
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/cartservice/tests/cartservice.tests.csproj
+  detection_source: src/cartservice/tests/cartservice.tests.csproj
+  last_updated_by: Simon Zeltser
+  last_updated_on: 2018-06-23 00:17:34.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo
+  detection_source: Repo Metadata
+- name: backoff
+  description: Function decoration for backoff and retry
+  package_url: https://pypi.org/project/backoff
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19988/default_aa331bbc48e2faa54aa26e08880b772595f833b8.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Drew Brown
+  last_updated_on: 2022-11-04 20:49:17.000000000 Z
+- name: cachetools
+  description: Extensible memoizing collections and decorators
+  package_url: https://pypi.org/project/cachetools
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19950/default_611a1328f69b729fac0a7b8bf87ff04e8ce35e17.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Drew Brown
+  last_updated_on: 2022-11-04 20:49:17.000000000 Z
+- name: certifi
+  description: Python package for providing Mozilla's CA Bundle
+  package_url: https://pypi.org/project/certifi
+  version: 2022.9.24
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-09-27 00:13:36.000000000 Z
+  vulnerabilities:
+  - name: Removal of e-Tugra root certificate
+    cve_id: CVE-2023-37920
+    cve_url: https://github.com/advisories/GHSA-xqr8-7jwr-rhp7
+    detected_date: Jul 26
+    severity: high
+    first_patched: 2023.7.22
+  - name: Certifi removing TrustCor root certificate
+    cve_id: CVE-2022-23491
+    cve_url: https://github.com/advisories/GHSA-43fp-rhv2-5gv8
+    detected_date: Dec 8
+    severity: moderate
+    first_patched: 2022.12.07
+- name: charset-normalizer
+  description: The Real First Universal Charset Detector
+  package_url: https://pypi.org/project/charset-normalizer
+  version: 2.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-08-30 22:13:14.000000000 Z
+- name: click
+  description: Composable command line interface toolkit
+  package_url: https://pypi.org/project/click
+  version: 8.1.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/loadgenerator/requirements.txt
+  detection_source: src/loadgenerator/requirements.txt
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-06-13 20:41:05.000000000 Z
+- name: deprecated
+  description: Python @deprecated decorator to deprecate old python classes
+  package_url: https://pypi.org/project/deprecated
+  version: 1.2.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20346/default_af2b356cd035e5e1c010a45df43c17b898af8c44.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Drew Brown
+  last_updated_on: 2022-11-04 20:49:17.000000000 Z
+- name: google-api-core
+  description: Google API client core library
+  package_url: https://pypi.org/project/google-api-core
+  version: 2.10.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20073/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Mathieu Benoit
+  last_updated_on: 2022-11-21 14:19:41.000000000 Z
+- name: google-api-python-client
+  description: Google API Client Library for Python
+  package_url: https://pypi.org/project/google-api-python-client
+  version: 2.66.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19897/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Mathieu Benoit
+  last_updated_on: 2022-11-21 14:19:41.000000000 Z
+- name: google-auth
+  description: Google Authentication Library
+  package_url: https://pypi.org/project/google-auth
+  version: 2.14.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19955/default_1965f66bb5a4d2eb7b31193d7be6d8a9041d02b9.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-17 18:48:59.000000000 Z
+- name: google-cloud-core
+  description: Google Cloud API client core library
+  package_url: https://pypi.org/project/google-cloud-core
+  version: 2.3.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20215/default_91afeaad6f5d17a2b513346f3f744a53cbd8a9ad.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/recommendationservice/requirements.txt
+  detection_source: src/recommendationservice/requirements.txt
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-17 18:48:59.000000000 Z
+- name: google-cloud-firestore
+  description: Google Cloud Firestore API client library
+  package_url: https://pypi.org/project/google-cloud-firestore
+  version: 2.7.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20487/default_13373c456cf04faa5b7f33cd4c4095cbd571dfce.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/recommendationservice/requirements.txt
+  detection_source: src/recommendationservice/requirements.txt
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-17 18:48:59.000000000 Z
+- name: google-cloud-storage
+  description: Google Cloud Storage API client library
+  package_url: https://pypi.org/project/google-cloud-storage
+  version: 2.6.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19996/default_1ae269f6aa26d7008f18ed620309f6ae89bbfa12.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/recommendationservice/requirements.txt
+  detection_source: src/recommendationservice/requirements.txt
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-17 18:48:59.000000000 Z
+- name: google-resumable-media
+  description: Utilities for Google Media Downloads and Resumable Uploads
+  package_url: https://pypi.org/project/google-resumable-media
+  version: 2.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/recommendationservice/requirements.txt
+  detection_source: src/recommendationservice/requirements.txt
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-17 18:48:59.000000000 Z
+- name: googleapis-common-protos
+  description: Common protobufs used in Google APIs
+  package_url: https://pypi.org/project/googleapis-common-protos
+  version: 1.57.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20036/default_a7a70921d2d3189665c78015850dc968f41705a1.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-17 18:48:59.000000000 Z
+- name: greenlet
+  description: Lightweight in-process concurrent programming
+  package_url: https://pypi.org/project/greenlet
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20137/default_e3ea003987b13e5c9b8c9000c748b25a9c0d9ecd.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/loadgenerator/requirements.txt
+  detection_source: src/loadgenerator/requirements.txt
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-08 12:36:21.000000000 Z
+- name: grpcio
+  description: HTTP/2-based RPC framework
+  package_url: https://pypi.org/project/grpcio
+  version: 1.51.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19903/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-22 05:31:56.000000000 Z
+  vulnerabilities:
+  - name: gRPC Reachable Assertion issue
+    cve_id: CVE-2023-1428
+    cve_url: https://github.com/advisories/GHSA-6628-q6j9-w8vg
+    detected_date: Jul 7
+    severity: high
+    first_patched: 1.53.0
+  - name: Connection confusion in gRPC
+    cve_id: CVE-2023-32731
+    cve_url: https://github.com/advisories/GHSA-cfgp-2977-2fmm
+    detected_date: Jul 6
+    severity: high
+    first_patched: 1.53.0
+  - name: gRPC connection termination issue
+    cve_id: CVE-2023-32732
+    cve_url: https://github.com/advisories/GHSA-9hxf-ppjv-w6rq
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 1.53.0
+- name: grpcio-health-checking
+  description: Standard Health Checking Service for gRPC
+  package_url: https://pypi.org/project/grpcio-health-checking
+  version: 1.48.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-22 05:31:56.000000000 Z
+- name: httplib2
+  description: A comprehensive HTTP client library
+  package_url: https://pypi.org/project/httplib2
+  version: 0.21.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19914/default_37434feaacace26053e41d6e4802560af16ebe44.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-10-31 15:11:13.000000000 Z
+- name: idna
+  description: Internationalized Domain Names in Applications
+  package_url: https://pypi.org/project/idna
+  version: '3.4'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-09-14 13:49:42.000000000 Z
+- name: importlib-metadata
+  description: Read metadata from Python packages
+  package_url: https://pypi.org/project/importlib-metadata
+  version: 5.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20000/default_7c419d5d5f0cfad7886b95266eae7ba305cedacf.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/loadgenerator/requirements.txt
+  detection_source: src/loadgenerator/requirements.txt
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-10-03 13:12:31.000000000 Z
+- name: itsdangerous
+  description: Various helpers to pass data to untrusted environments and back
+  package_url: https://pypi.org/project/itsdangerous
+  version: 2.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19989/default_b1f1fc9c4c59a78443018e01395203ba8c61dcde.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/loadgenerator/requirements.txt
+  detection_source: src/loadgenerator/requirements.txt
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-06-24 13:56:19.000000000 Z
+- name: msgpack
+  description: MessagePack
+  package_url: https://pypi.org/project/msgpack
+  version: 1.0.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19934/default_63c8e7696ded615c51302c06e54b0d0c8ae9af3f.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/loadgenerator/requirements.txt
+  detection_source: src/loadgenerator/requirements.txt
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-06-09 01:06:19.000000000 Z
+- name: opentelemetry-api
+  description: OpenTelemetry Python API
+  package_url: https://pypi.org/project/opentelemetry-api
+  version: 1.14.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Mathieu Benoit
+  last_updated_on: 2022-11-21 14:19:41.000000000 Z
+- name: psutil
+  description: Cross-platform lib for process and system monitoring in Python
+  package_url: https://pypi.org/project/psutil
+  version: 5.9.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19851/default_ac77a75c05474acf9389d56b1f5cc8241af4c384.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/loadgenerator/requirements.txt
+  detection_source: src/loadgenerator/requirements.txt
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-08 13:47:53.000000000 Z
+- name: pyasn1
+  description: ASN.1 types and codecs
+  package_url: https://pypi.org/project/pyasn1
+  version: 0.4.8
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19915/default_37434feaacace26053e41d6e4802560af16ebe44.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Christine Kim
+  last_updated_on: 2022-01-25 20:20:42.000000000 Z
+- name: pyasn1-modules
+  description: A collection of ASN.1-based protocols modules
+  package_url: https://pypi.org/project/pyasn1-modules
+  version: 0.2.8
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20090/default_36085c16346155862c5c1303e8a0a70416453533.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Christine Kim
+  last_updated_on: 2022-01-25 20:20:42.000000000 Z
+- name: pyparsing
+  description: Python parsing module
+  package_url: https://pypi.org/project/pyparsing
+  version: 3.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19881/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-08-31 19:07:13.000000000 Z
+- name: python-json-logger
+  description: A python library adding a json log formatter
+  package_url: https://pypi.org/project/python-json-logger
+  version: 2.0.4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20268/default_ac8229927eda3d44316aa5b5d6704388a231bb77.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-17 18:48:59.000000000 Z
+- name: pyzmq
+  description: Python bindings for 0MQ
+  package_url: https://pypi.org/project/pyzmq
+  version: 24.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19913/default_37434feaacace26053e41d6e4802560af16ebe44.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/loadgenerator/requirements.txt
+  detection_source: src/loadgenerator/requirements.txt
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-09-22 04:14:03.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.28.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Drew Brown
+  last_updated_on: 2022-11-04 20:49:17.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: rsa
+  description: Pure-Python RSA implementation
+  package_url: https://pypi.org/project/rsa
+  version: '4.9'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20021/default_faea030602e3d71554c57e6fc53190ac830da00d.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Dustin Ingram
+  last_updated_on: 2019-01-11 22:59:27.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Dustin Ingram
+  last_updated_on: 2019-01-11 22:59:27.000000000 Z
+- name: typing-extensions
+  description: Backported and Experimental Type Hints for Python 3.5+
+  package_url: https://pypi.org/project/typing-extensions
+  version: 4.4.0
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19875/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Mathieu Benoit
+  last_updated_on: 2022-11-21 14:19:41.000000000 Z
+- name: uritemplate
+  description: URI templates
+  package_url: https://pypi.org/project/uritemplate
+  version: 4.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20156/default_0a9d6219a6023591895a9db3a2e96da524d7a0a8.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-08-31 19:09:58.000000000 Z
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 1.26.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-08-30 13:59:48.000000000 Z
+  vulnerabilities:
+  - name: urllib3's request body not stripped after redirect from 303 status changes
+      request method to GET
+    cve_id: CVE-2023-45803
+    cve_url: https://github.com/advisories/GHSA-g4mx-q9vg-27p4
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.26.18
+  - name: "`Cookie` HTTP header isn't stripped on cross-origin redirects"
+    cve_id: CVE-2023-43804
+    cve_url: https://github.com/advisories/GHSA-v845-jxx5-vc9f
+    detected_date: Oct 3
+    severity: moderate
+    first_patched: 1.26.17
+- name: wrapt
+  description: Module for decorators, wrappers and monkey patching
+  package_url: https://pypi.org/project/wrapt
+  version: 1.14.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19946/default_0b0a94e1bdf3e64deeccb23892ca2335bdc30e4f.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/emailservice/requirements.txt
+  detection_source: src/emailservice/requirements.txt
+  last_updated_by: Drew Brown
+  last_updated_on: 2022-11-04 20:49:17.000000000 Z
+- name: zipp
+  description: Backport of pathlib-compatible object wrapper for zip files
+  package_url: https://pypi.org/project/zipp
+  version: 3.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20247/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/loadgenerator/requirements.txt
+  detection_source: src/loadgenerator/requirements.txt
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-10-24 10:49:02.000000000 Z
+- name: appengine
+  description: Go App Engine packages
+  package_url: https://pkg.go.dev/google.golang.org/appengine
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/checkoutservice/go.sum
+  detection_source: src/checkoutservice/go.mod
+  last_updated_by: Mathieu Benoit
+  last_updated_on: 2021-12-22 17:32:38.000000000 Z
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  version: 0.9.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/checkoutservice/go.sum
+  detection_source: src/checkoutservice/go.mod
+  last_updated_by: Drew Brown
+  last_updated_on: 2022-11-04 20:49:17.000000000 Z
+- name: go
+  description: Google Cloud Client Libraries for Go
+  package_url: https://pkg.go.dev/cloud.google.com/go
+  version: 0.26.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/checkoutservice/go.sum
+  detection_source: src/checkoutservice/go.mod
+  last_updated_by: Ahmet Alp Balkan
+  last_updated_on: 2020-10-13 20:05:53.000000000 Z
+- name: go/compute/metadata
+  description: Google Cloud Client Libraries for Go
+  package_url: https://pkg.go.dev/cloud.google.com/go/compute/metadata
+  version: 0.2.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/frontend/go.sum
+  detection_source: src/frontend/go.mod
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-08 00:03:26.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/checkoutservice/go.sum
+  detection_source: src/checkoutservice/go.mod
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-18 22:38:31.000000000 Z
+- name: groupcache
+  description: Groupcache is a caching and cache-filling library
+  package_url: https://pkg.go.dev/github.com/golang/groupcache
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/checkoutservice/go.sum
+  detection_source: src/checkoutservice/go.mod
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-06-09 01:22:47.000000000 Z
+- name: httpsnoop
+  description: Package httpsnoop provides an easy way to capture http related metrics
+  package_url: https://pkg.go.dev/github.com/felixge/httpsnoop
+  version: 1.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/frontend/go.sum
+  detection_source: src/frontend/go.mod
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-08 00:03:26.000000000 Z
+- name: logr
+  description: A simple logging interface for Go
+  package_url: https://pkg.go.dev/github.com/go-logr/logr
+  version: 1.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/checkoutservice/go.sum
+  detection_source: src/checkoutservice/go.mod
+  last_updated_by: Drew Brown
+  last_updated_on: 2022-11-04 20:49:17.000000000 Z
+- name: logrus
+  description: Structured, pluggable logging for Go
+  package_url: https://pkg.go.dev/github.com/sirupsen/logrus
+  version: 1.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/checkoutservice/go.sum
+  detection_source: src/checkoutservice/go.mod
+  last_updated_by: Drew Brown
+  last_updated_on: 2022-11-04 20:49:17.000000000 Z
+- name: mux
+  description: "A powerful HTTP router and URL matcher for building Go web servers
+    with \U0001F98D"
+  package_url: https://pkg.go.dev/github.com/gorilla/mux
+  version: 1.8.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/frontend/go.sum
+  detection_source: src/frontend/go.mod
+  last_updated_by: Ahmet Alp Balkan
+  last_updated_on: 2020-10-13 20:05:53.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/checkoutservice/go.sum
+  detection_source: src/checkoutservice/go.mod
+  last_updated_by: Ahmet Alp Balkan
+  last_updated_on: 2020-10-13 20:05:53.000000000 Z
+- name: oauth2
+  description: Go OAuth2
+  package_url: https://pkg.go.dev/golang.org/x/oauth2
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/checkoutservice/go.sum
+  detection_source: src/checkoutservice/go.mod
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-06-12 14:48:49.000000000 Z
+- name: pprof
+  description: Pprof is a tool for visualization and analysis of profiling data
+  package_url: https://pkg.go.dev/github.com/google/pprof
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/checkoutservice/go.sum
+  detection_source: src/checkoutservice/go.mod
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-06-12 14:48:49.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/checkoutservice/go.mod
+  detection_source: src/checkoutservice/go.mod
+  last_updated_by: Drew Brown
+  last_updated_on: 2022-11-04 20:49:17.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/checkoutservice/go.sum
+  detection_source: src/checkoutservice/go.mod
+  last_updated_by: Ahmet Alp Balkan
+  last_updated_on: 2020-10-13 20:05:53.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/checkoutservice/go.sum
+  detection_source: src/checkoutservice/go.mod
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-10-20 20:44:44.000000000 Z
+- name: "@grpc/proto-loader"
+  description: GRPC utility library for loading .proto files
+  package_url: https://www.npmjs.com/@grpc/proto-loader
+  version: 0.6.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18549/default_0e8c62fd0420ce3873a7b150d09fb9d1094266c0.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/currencyservice/package-lock.json
+  detection_source: src/currencyservice/package.json
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-10 14:45:11.000000000 Z
+- name: async
+  description: Higher-order functions and common patterns for asynchronous code
+  package_url: https://www.npmjs.com/async
+  version: 3.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15851/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/currencyservice/package-lock.json
+  detection_source: src/currencyservice/package.json
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-06-09 01:12:35.000000000 Z
+- name: google-protobuf
+  description: Protocol Buffers for JavaScript
+  package_url: https://www.npmjs.com/google-protobuf
+  version: 3.21.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17483/default_8c4651c288471a00b2fd6f2055b6de29cb9a049d.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/currencyservice/package-lock.json
+  detection_source: src/currencyservice/package.json
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-22 05:31:44.000000000 Z
+- name: pino
+  description: Super fast, all natural json logger
+  package_url: https://www.npmjs.com/pino
+  version: 8.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16974/default_192373fe2b3ded7bb442c39dbf0f34ca3e5bed5d.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/currencyservice/package-lock.json
+  detection_source: src/currencyservice/package.json
+  last_updated_by: WhiteSource Renovate
+  last_updated_on: 2022-10-20 20:44:35.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 8.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/currencyservice/package-lock.json
+  detection_source: src/paymentservice/package.json
+  last_updated_by: Nim Jayawardena
+  last_updated_on: 2022-09-19 16:09:33.000000000 Z
+- name: xml2js
+  description: Simple XML to JavaScript object converter
+  package_url: https://www.npmjs.com/xml2js
+  version: 0.4.23
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16122/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/currencyservice/package-lock.json
+  detection_source: src/currencyservice/package.json
+  last_updated_by: Mathieu Benoit
+  last_updated_on: 2021-04-01 13:03:49.000000000 Z
+  vulnerabilities:
+  - name: xml2js is vulnerable to prototype pollution
+    cve_id: CVE-2023-0842
+    cve_url: https://github.com/advisories/GHSA-776f-qx25-q3cc
+    detected_date: Apr 8
+    severity: moderate
+    first_patched: 0.5.0
+- name: Grpc.HealthCheck
+  description: GRPC C# Health Checking
+  package_url: https://www.nuget.org/Grpc.HealthCheck
+  version: 2.50.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15536/default_1c16bd65b40033282a690b9deafb8f6985b13500.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/cartservice/src/cartservice.csproj
+  detection_source: src/cartservice/src/cartservice.csproj
+  last_updated_by: Mathieu Benoit
+  last_updated_on: 2022-11-21 14:19:41.000000000 Z
+- name: Grpc.Net.Client
+  description: ".NET client for gRPC"
+  package_url: https://www.nuget.org/Grpc.Net.Client
+  version: 2.50.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15548/default_9e6c5b16645c805765637f65779b2a8071a09c95.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/cartservice/tests/cartservice.tests.csproj
+  detection_source: src/cartservice/tests/cartservice.tests.csproj
+  last_updated_by: Mathieu Benoit
+  last_updated_on: 2022-11-21 14:19:41.000000000 Z
+  vulnerabilities:
+  - name: gRPC Reachable Assertion issue
+    cve_id: CVE-2023-1428
+    cve_url: https://github.com/advisories/GHSA-6628-q6j9-w8vg
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.52.0
+  - name: Connection confusion in gRPC
+    cve_id: CVE-2023-32731
+    cve_url: https://github.com/advisories/GHSA-cfgp-2977-2fmm
+    detected_date: Jul 6
+    severity: high
+    first_patched: 2.52.0
+  - name: gRPC connection termination issue
+    cve_id: CVE-2023-32732
+    cve_url: https://github.com/advisories/GHSA-9hxf-ppjv-w6rq
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 2.52.0
+- name: Microsoft.AspNetCore.TestHost
+  description: ASP.NET Core web server for writing and running tests
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.TestHost
+  version: 7.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13268/default_3b9faa77d26eef0a944d4dab8d562db23059cb72.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/cartservice/tests/cartservice.tests.csproj
+  detection_source: src/cartservice/tests/cartservice.tests.csproj
+  last_updated_by: Mathieu Benoit
+  last_updated_on: 2022-11-08 16:55:00.000000000 Z
+- name: Microsoft.Extensions.Caching.StackExchangeRedis
+  description: Distributed cache implementation of Microsoft.Extensions.Caching.Distributed.IDistributedCache
+    using Redis
+  package_url: https://www.nuget.org/Microsoft.Extensions.Caching.StackExchangeRedis
+  version: 7.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14129/default_b83e8bc58faf2b296cff1198fce442f2bb64617b.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/cartservice/src/cartservice.csproj
+  detection_source: src/cartservice/src/cartservice.csproj
+  last_updated_by: Mathieu Benoit
+  last_updated_on: 2022-11-21 14:19:41.000000000 Z
+- name: xunit.runner.visualstudio
+  description: Visual Studio 2012+ Test Explorer runner for the xUnit.net framework
+  package_url: https://www.nuget.org/xunit.runner.visualstudio
+  version: 2.4.5
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/cartservice/tests/cartservice.tests.csproj
+  detection_source: src/cartservice/tests/cartservice.tests.csproj
+  last_updated_by: Mathieu Benoit
+  last_updated_on: 2022-08-10 18:23:55.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-core
+  description: Core Jackson processing abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/adservice/build.gradle
+  detection_source: src/adservice/build.gradle
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-22 05:52:58.000000000 Z
+- name: com.google.api.grpc:proto-google-common-protos
+  description: PROTO library for proto-google-common-protos
+  version: 2.10.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rgunindi/microservices-demo/blob/main/src/adservice/build.gradle
+  detection_source: src/adservice/build.gradle
+  last_updated_by: Mend Renovate
+  last_updated_on: 2022-11-17 18:49:10.000000000 Z
